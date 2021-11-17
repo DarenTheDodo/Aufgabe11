@@ -1,10 +1,10 @@
 #include <stdio.h>
 // cgrahl3s, kzande3s
-// Dieses Programm soll für eine Zahl x und einer Genauigkeit n die zugehörige Quadratwurzel von x ausgegeben
+// Dieses Programm soll fuer eine Zahl x und einer Genauigkeit n die zugehoerige Quadratwurzel von x ausgegeben
 // Test:
 // x = 2, n = 4, w = 1.4142; x = 49, n = 10, w = 7; x = 81, n = 10, w = 9;
 // Was passiert bei wachsendem n?
-// Je höher die Genauigkeit n, desto präziser ist das Ergebnis (bei hohen x Werten sind die Ergebnisse erst nach einigen Durchläufen annähernd richtig)
+// Je hoeher die Genauigkeit n, desto praeziser ist das Ergebnis (bei hohen x Werten sind die Ergebnisse erst nach einigen Durchlaeufen annaehernd richtig)
 int main() {
     double w, x;
     int n;
