@@ -17,9 +17,8 @@ int main() {
 
     for (int i = 0; i <= n; i++) {
         w = 0.5 * (w + x / w);
-        printf("%lf\n", w);
     }
-    //printf("%lf\n", w);
+    printf("%lf\n", w);
     return 0;
 }
 
